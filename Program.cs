@@ -6,7 +6,9 @@ namespace modul7_1302204126
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            BankTransferConfig b = new BankTransferConfig();
+
+            b.ReadJSON();
         }
     }
 }
